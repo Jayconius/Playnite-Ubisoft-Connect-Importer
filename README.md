@@ -2,6 +2,8 @@
 
 An unofficial Playnite library extension that imports installed and uninstalled Ubisoft Connect games from the local client cache.
 
+> **Temporary workaround:** This extension is intended as a temporary fix while the official Playnite Ubisoft Connect add-on is out of date. It is not a replacement for the official add-on. Ubisoft may change its cache format in a future client update; if the official add-on has not been updated by then, this extension may also need updates. Maintenance is provided on request and is not automatic.
+
 ## What it does
 
 - Reads the legacy plaintext `cache/configuration/configurations` cache.
