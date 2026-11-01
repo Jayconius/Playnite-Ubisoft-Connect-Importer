@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net462</TargetFramework>
+    <LangVersion>7.3</LangVersion>
+    <AssemblyName>UbisoftConnectImporter</AssemblyName>
+    <RootNamespace>UbisoftConnectImporter</RootNamespace>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <OutputPath>bin\$(Configuration)\</OutputPath>
+    <PlayniteInstallDir Condition="'$(PlayniteInstallDir)' == ''">D:\Games\Playnite</PlayniteInstallDir>
+    <FrameworkPathOverride Condition="'$(FrameworkPathOverride)' == ''">C:\Windows\Microsoft.NET\Framework64\v4.0.30319</FrameworkPathOverride>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Playnite.SDK">
+      <HintPath>$(PlayniteInstallDir)\Playnite.SDK.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security" />
+  </ItemGroup>
+</Project>
