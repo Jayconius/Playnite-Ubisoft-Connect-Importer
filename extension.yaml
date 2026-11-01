@@ -1,0 +1,6 @@
+Id: UbisoftConnectImporter
+Name: Ubisoft Connect library importer (cache compatible)
+Author: Community
+Version: 1.1.0
+Module: UbisoftConnectImporter.dll
+Type: GameLibrary
